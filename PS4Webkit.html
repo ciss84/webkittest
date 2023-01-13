@@ -8,7 +8,7 @@
 	function trigger() {
 		document.getElementsByTagName("style")[0].appendChild(document.createElement("a")); 
 		setTimeout( () => {
-			msubEle.prepend("1");
+			msubEle.prepend("Webkit Working");
 			mathEle.focus() // This can be a few different calls. setSelectionRange also worked
 			mathEle.remove();
 		}, 0);
